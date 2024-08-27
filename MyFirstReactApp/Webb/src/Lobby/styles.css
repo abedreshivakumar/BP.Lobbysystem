@@ -1,3 +1,4 @@
+
 .lobby-container{
     display:flex;
     flex-direction: column;
@@ -12,14 +13,14 @@
     padding: 4px;
 }
 .lobby-main > div{
-    border: 1px dashed #E77857;
+    border: 1px dashed #bbc2d3;
     margin: -1px;
 }
 
 /* user panel */
 .lobby-main > div:nth-child(1){
     flex: 1 1 30%;
-    color: #CB764C;
+    color: #2d67f9;
 }
 
 /* preview */
@@ -43,22 +44,22 @@
     padding: 0.5rem;
     font-size: 1.7rem;
     text-align: center;
-    background-color: #F2C573;
+    background-color: #211706;
 }
 .preview:hover{
     transform:scale(1.01);
-    border:2px solid #E77857;
+    border:2px solid #1b16ab;
 }
 
 #createButton{
     width: fit-content;
     margin: 10px auto;
-    background-color: #83884ec7;
+    background-color: #152f86c7;
     font-size: 18px;
 }
 
 select{
-    background-color: #83884ec7;
+    background-color: #1f51bbc7;
     padding: 5px;
     border-radius: 5px;
     font-size: 14px;
