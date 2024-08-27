@@ -1,6 +1,6 @@
 import './styles.css'
 import UserPanel from './UserPanel'
-import EventPreview from './Eventpreview'
+import EventPreview from './EventPreview'
 import { useCallback, useEffect, useState } from 'react'
 import useAuth from '../Auth/useAuth'
 import {CLIENT_EVENT_LIST_EVENTS,EVENT_CREATE_EVENT,SERVER_EVENT_LIST_EVENTS,} from '../constants/socket'
